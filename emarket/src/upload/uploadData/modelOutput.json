@@ -1,0 +1,109 @@
+{
+"Site_and_Source_Energy":
+    {"Total_Site_Energy":
+        [
+            {"name":"Total Energy [kWh]","value":206728.27},
+            {"name":"Energy Per Total Building Area [kWh/m2]","value":150.7},
+            {"name":"Energy Per Conditioned Building Area [kWh/m2]","value":162.6}
+        ],
+    "Net_Site_Energy":
+        [
+            {"name":"Total Energy [kWh]","value":206728.27},
+            {"name":"Energy Per Total Building Area [kWh/m2]","value":150.7},
+            {"name":"Energy Per Conditioned Building Area [kWh/m2]","value":162.6}
+        ],
+    "Total_Source_Energy":
+        [
+            {"name":"Total Energy [kWh]","value":704841.33},
+            {"name":"Energy Per Total Building Area [kWh/m2]","value":513.82},
+            {"name":"Energy Per Conditioned Building Area [kWh/m2]","value":554.4}
+        ],
+    "Net_Source_Energy":
+        [
+            {"name":"Total Energy [kWh]","value":704841.33},
+            {"name":"Energy Per Total Building Area [kWh/m2]","value":513.82},
+            {"name":"Energy Per Conditioned Building Area [kWh/m2]","value":554.4}
+        ]
+    },
+"End_Uses":
+    {"Heating":
+        [
+            {"name":"Electricity [kWh]","value":0},
+            {"name":"Natural Gas","value":0},
+            {"name":"Additinal Fuel","value":0},
+            {"name":"District Cooling","value":0},
+            {"name":"District Heating","value":101093.96},
+            {"name":"Water","value":0}
+        ],
+    "Cooling":
+        [
+            {"name":"Electricity [kWh]","value":0},
+            {"name":"Natural Gas","value":0},
+            {"name":"Additinal Fuel","value":0},
+            {"name":"District Cooling","value":0},
+            {"name":"District Heating","value":0},
+            {"name":"Water","value":0}
+        ],
+    "Interior_Lighting":
+        [
+            {"name":"Electricity [kWh]","value":6799.99},
+            {"name":"Natural Gas","value":0},
+            {"name":"Additinal Fuel","value":0},
+            {"name":"District Cooling","value":0},
+            {"name":"District Heating","value":0},
+            {"name":"Water","value":0}
+        ]
+    },
+"Comfort_and_Setpoint_Not_Met_Summary":
+    {"Heating":
+        [
+            {"name":"Time Not Comfortable Based on Simple ASHRAE 55-2004","value":0}
+        ],
+    "Cooling":
+        [
+            {"name":"Time Not Comfortable Based on Simple ASHRAE 55-2004","value":0}
+        ]
+    },
+"Time_Not_Comfortable_Based_on_Simple_ASHRAE_55_2004":
+    {"Z01_S01_SLEEPINGROOM1":
+        [
+            {"name":"Winter Clothes [hr]","value":1462.25},
+            {"name":"Summer Clothes [hr]","value":1700},
+            {"name":"Summer or Winter Clothes [hr]","value":1437}
+        ],
+    "Z01_S02_SLEEPINGROOM2":
+        [
+            {"name":"Winter Clothes [hr]","value":1498.25},
+            {"name":"Summer Clothes [hr]","value":1709},
+            {"name":"Summer or Winter Clothes [hr]","value":1469.75}
+        ],
+    "Z01_S03_GROUPROOM1":
+        [
+            {"name":"Winter Clothes [hr]","value":1746.5},
+            {"name":"Summer Clothes [hr]","value":1755},
+            {"name":"Summer or Winter Clothes [hr]","value":1746.5}
+        ]
+    },
+"EAp2_6_Energy_Use_Summary":
+    {"Additional":
+        [
+            {"name":"Process Subtotal [kWh]","value":13140.08},
+            {"name":"Total Energy Use [kWh]","value":187786.48}
+        ],
+    "Natural_Gas":
+        [
+            {"name":"Process Subtotal [kWh]","value":0.0},
+            {"name":"Total Energy Use [kWh]","value":0.0}
+        ],
+    "Total":
+        [
+            {"name":"Process Subtotal [kWh]","value":20148.05},
+            {"name":"Total Energy Use [kWh]","value":206728.43}
+        ],
+    "Electricity":
+        [
+            {"name":"Process Subtotal [kWh]","value":7007.97},
+            {"name":"Total Energy Use [kWh]","value": 18941.95}
+        ]    
+    }
+}

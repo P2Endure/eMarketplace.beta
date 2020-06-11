@@ -1,0 +1,15 @@
+.model {
+    background-color: #ffffff;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-top:10px;
+    width: 510px;
+    height: 610px;
+    border-width: 0.25px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    border-radius: 0.25rem;
+}
+
+

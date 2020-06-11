@@ -1,0 +1,25 @@
+- Pruefen ob building surface name durchgehend geaendert werden muss
+- Reference bei Panel bezieht sich auf die Aussenwand
+
+
+originalString - Komplettes IDF
+searchString - gesuchter Teil
+replacementString - IDF mit getauschten Werten
+
+instanceIndex = originalstring.indexOf(searchString)
+Index = Stelle an dem das gesuchte Stueck innerhalb des IDF auftaucht
+
+
+   if (instanceIndex !== -1) {
+     const materialIndex = originalString.indexOf('Multiplier', instanceIndex);
+     const rIndex = originalString.indexOf('r', materialIndex);
+     return originalString.slice(0, instanceIndex) + replacementString + originalString.slice(rIndex + 1);
+  }
+  return originalString;
+ }
+    
+
+Wenn wir vor der Stelle sind, an dem InstanceIndex steht,
+	definieren wir materialIndex, welches die Stelle beschreibt bis zu Multiplier
+	definieren wir rIndex, welches die Stelle MaterialIndex bis zum R beschreibt
+wir geben OriginalIndex zurueck als Zusammenschnitt des Originals mit ReplacementString

@@ -1,0 +1,27 @@
+.cards{
+    width: 20rem;
+    height: 40px;
+    border: .2rem solid #ececec;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: .25rem;
+}
+
+.cards:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.cards-body{
+    padding: 3rem 0 !important;
+}
+
+.cards-text{
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem; 
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: .6rem;
+    margin-left: -.25rem;
+}
